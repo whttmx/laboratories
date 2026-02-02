@@ -199,7 +199,7 @@ void Product::ChangeExpirationDate(int days){
             std::cout << "The expiration date of the product has been changed to " << days << "days." << std::endl;
         }
         else{
-            std::invalid_argument("Days have to be positive.");
+            std::cout << "Days have to be positive." << std::endl;
         }
     }
     return;
