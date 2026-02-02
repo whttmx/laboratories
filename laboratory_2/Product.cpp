@@ -26,6 +26,7 @@ Product::Product(const Product& other_product){
 }
 
 Product::~Product(){
+    composition_.clear();
     std::cout << "The product has been removed." << std::endl; 
 }
 
